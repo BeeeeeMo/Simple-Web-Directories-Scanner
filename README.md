@@ -1,1 +1,1 @@
-# Web-Directories-Scanner
+# Simple-Web-Directories-Scanner

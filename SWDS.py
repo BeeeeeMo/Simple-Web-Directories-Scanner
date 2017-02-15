@@ -19,7 +19,7 @@ def BruteForce(host):
             break
             
 if __name__=='__main__':
-    print ("===Python Web Directories and Files Scanner By BeeeeeMo===\n")
+    print ("\n>> Simple Web Directories Scanner By BeeeeeMo <<\n")
     target = input('Enter target Url:')
     BruteForce(target)
-    print('Done!')
+    print('\nDone!')
