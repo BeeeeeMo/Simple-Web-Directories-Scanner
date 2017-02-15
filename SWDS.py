@@ -5,7 +5,7 @@ def BruteForce(host):
     mydict = []
     try:
         with open('dictionary.txt', 'r') as dictionary:
-            mydict = [_.strip() for _ in dictionary.readlines()]
+            mydict = list(set([_.strip() for _ in dictionary.readlines()]))
     except OSError as e:
         print(e)
     result = []
